@@ -1,5 +1,5 @@
 ---
-name: Power Grid Asset LCA Material Decomposition
+name: Power Grid LCA Decomposition
 description: Methodology and principles for decomposing power-sector asset inventories
   (generation, transmission, and distribution) into LCA material flows and matching
   background datasets. Applies when the user provides an equipment register plus a
@@ -35,7 +35,7 @@ effort: ''
 publisher_name: ''
 ---
 
-# Power Grid Asset LCA Material Decomposition
+# Power Grid LCA Decomposition
 
 ## Scope
 

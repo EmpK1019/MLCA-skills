@@ -86,7 +86,7 @@
     },
     {
       "id": "power-grid-lca-decomposition",
-      "name": "Power Grid Asset LCA Material Decomposition",
+      "name": "Power Grid LCA Decomposition",
       "description": "Decompose power generation, transmission, and distribution equipment registers into LCA material flows and background dataset matches.",
       "version": "1.0",
       "author": "M-LCA",
