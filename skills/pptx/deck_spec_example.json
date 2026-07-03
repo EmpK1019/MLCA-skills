@@ -1,0 +1,642 @@
+{
+  "outputFile": "产品经理面试展示.pptx",
+  "title": "产品经理面试展示",
+  "subtitle": "基于碳足迹/LCA数字化平台的产品化探索",
+  "author": "MLCA",
+  "themePreset": "mckinsey",
+  "layout": "LAYOUT_WIDE",
+  "deck": {
+    "showPageNumbers": true,
+    "appendSourcesSlide": true,
+    "writeSpecCopy": true,
+    "specOutputFile": "deck-spec.json"
+  },
+  "theme": {
+    "support": "005587"
+  },
+  "slides": [
+    {
+      "kind": "cover",
+      "title": "产品经理面试展示",
+      "subtitle": "基于碳足迹/LCA数字化平台的产品化探索",
+      "eyebrow": "PRODUCT PORTFOLIO"
+    },
+    {
+      "kind": "career-journey",
+      "title": "个人背景与转型动机",
+      "subtitle": "BACKGROUND & TRANSITION MOTIVATION",
+      "intro": "从环境与LCA专业能力出发，转向以用户价值、数据闭环和规模化交付为核心的数字化产品路径。",
+      "sections": [
+        {
+          "title": "研究背景：LCA与碳足迹专家",
+          "bullets": [
+            "5年+ LCA 研究经验，熟悉 ISO 14040/14044 与 PAS 2050。",
+            "主导复杂行业模型构建，具备数据网络与方法论能力。"
+          ]
+        },
+        {
+          "title": "转型动机：从咨询交付到产品赋能",
+          "bullets": [
+            "希望将咨询方法论沉淀为标准化 SaaS 产品。",
+            "用产品化提升交付效率与行业覆盖面。"
+          ]
+        },
+        {
+          "title": "核心能力迁移",
+          "bullets": [
+            "系统化思维、数据分析与业务洞察可以直接迁移到产品工作。",
+            "具备将复杂专业场景抽象成平台能力的优势。"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "title": "LCA 研究员 / 分析师",
+          "stageLabel": "PAST",
+          "focus": "准确性、方法论、合规",
+          "chips": ["模型构建", "数据挖掘"]
+        },
+        {
+          "title": "可持续发展咨询顾问",
+          "stageLabel": "TRANSITION",
+          "focus": "客户需求、解决方案、交付",
+          "chips": ["需求分析", "流程梳理"]
+        },
+        {
+          "title": "数字化产品经理",
+          "stageLabel": "NOW",
+          "focus": "用户价值、规模化、产品闭环",
+          "chips": ["产品架构", "迭代规划", "商业价值"]
+        }
+      ]
+    },
+    {
+      "kind": "process-flow",
+      "title": "我的产品方法论",
+      "subtitle": "PRODUCT METHODOLOGY FRAMEWORK",
+      "intro": "以用户价值为起点，通过数据驱动的闭环迭代，确保产品决策的科学性与业务成果的可交付性。",
+      "loopLabel": "持续迭代闭环",
+      "items": [
+        {
+          "step": "STEP 01",
+          "title": "用户价值",
+          "body": "明确目标用户与核心诉求，确立产品存在价值。",
+          "outputs": ["目标人群画像", "价值主张假设", "成功标准定义"]
+        },
+        {
+          "step": "STEP 02",
+          "title": "问题定义",
+          "body": "界定边界、分析痛点、明确优先级与约束。",
+          "outputs": ["痛点分析", "优先级排序", "约束条件"]
+        },
+        {
+          "step": "STEP 03",
+          "title": "方案设计",
+          "body": "构建信息架构与交互流程，形成可落地方案。",
+          "outputs": ["信息架构", "产品原型", "可行性评估"]
+        },
+        {
+          "step": "STEP 04",
+          "title": "数据验证",
+          "body": "用埋点、实验与反馈验证方案效果。",
+          "outputs": ["埋点指标", "A/B 结果", "用户反馈"]
+        },
+        {
+          "step": "STEP 05",
+          "title": "迭代优化",
+          "body": "基于数据洞察优化体验并驱动增长。",
+          "outputs": ["ROI 复盘", "优化方案", "路标更新"]
+        }
+      ]
+    },
+    {
+      "kind": "capability-matrix",
+      "title": "产品经理核心能力结构",
+      "subtitle": "CORE COMPETENCY MATRIX",
+      "summaryTitle": "能力模型评估",
+      "summaryHeadline": "T型人才画像",
+      "summaryBody": "以数据分析与产品设计为深耕方向，同时具备业务理解与协作能力。",
+      "items": [
+        {
+          "title": "用户洞察",
+          "subtitle": "User Insight",
+          "tools": ["深度访谈", "可用性测试", "Kano 模型"],
+          "output": "用户画像、体验地图、痛点分析",
+          "score": 4.0
+        },
+        {
+          "title": "数据分析",
+          "subtitle": "Data Analysis",
+          "tools": ["SQL", "Python/Pandas", "Tableau"],
+          "output": "埋点方案、漏斗分析、A/B 结论",
+          "score": 5.0
+        },
+        {
+          "title": "需求拆解",
+          "subtitle": "Requirements",
+          "tools": ["XMind", "Jira", "UML"],
+          "output": "BRD/MRD、功能清单、MVP 规划",
+          "score": 4.5
+        },
+        {
+          "title": "产品设计",
+          "subtitle": "Product Design",
+          "tools": ["Figma", "Axure", "Visio"],
+          "output": "IA、高保真原型、交互说明、PRD",
+          "score": 4.5
+        },
+        {
+          "title": "跨团队协作",
+          "subtitle": "Collaboration",
+          "tools": ["Confluence", "Slack/Feishu", "Gantt"],
+          "output": "排期表、会议纪要、风险清单",
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "kind": "market-driver-stack",
+      "title": "案例背景：碳足迹/LCA数字化平台",
+      "subtitle": "CASE BACKGROUND: DIGITAL CARBON FOOTPRINT & LCA PLATFORM",
+      "sections": [
+        {
+          "title": "业务目标",
+          "bullets": [
+            "满足国内外双碳政策与 ESG 披露要求。",
+            "自动化替代手工 Excel 计算，缩短单品建模周期。",
+            "沉淀数据库与模型，支持多品类快速复制。"
+          ]
+        },
+        {
+          "title": "目标客户",
+          "bullets": [
+            "制造业龙头企业与高能耗出口企业。",
+            "需要供应链碳数据协同的链主企业。",
+            "咨询与认证等第三方机构。"
+          ]
+        },
+        {
+          "title": "环境驱动",
+          "bullets": [
+            "欧盟 CBAM、新电池法、ISO 14067 等法规与标准。",
+            "品牌客户对供应商 PCF 数据的强制要求。"
+          ]
+        },
+        {
+          "title": "机会点：从工具到平台",
+          "bullets": [
+            "打通 ERP/MES，实现实景数据自动更新。",
+            "建立供应链数据交换网络，解决 Scope 3 数据难题。"
+          ]
+        }
+      ],
+      "drivers": [
+        {
+          "badge": "宏观层：法规与标准",
+          "badgeColor": "002060",
+          "title": "国际/国家政策压力",
+          "body": "欧盟 CBAM · 新电池法 · ISO 14067 · GB 标准"
+        },
+        {
+          "badge": "市场层：客户要求",
+          "badgeColor": "005EB8",
+          "title": "链主/品牌方倒逼",
+          "body": "供应商准入 · 绿链管理 · 采购决策"
+        },
+        {
+          "badge": "执行层：企业痛点",
+          "badgeColor": "00A3E0",
+          "title": "数据黑盒与人工瓶颈",
+          "body": "Excel 难维护 · 数据孤岛 · 计算复杂 · 难追溯"
+        }
+      ],
+      "solutionLabel": "SOLUTION",
+      "solutionTitle": "LCA 数字化平台",
+      "solutionBody": "标准化 · 自动化 · 协同化"
+    },
+    {
+      "kind": "persona-cards",
+      "title": "用户与场景分析",
+      "subtitle": "USER PERSONAS & SCENARIO ANALYSIS",
+      "items": [
+        {
+          "role": "企业可持续负责人",
+          "subtitle": "Strategic Leader · ESG Owner",
+          "responsibilities": [
+            "制定双碳战略与减排目标。",
+            "统筹碳盘查与 ESG 报告披露。",
+            "应对外部审计与客户合规要求。"
+          ],
+          "pains": [
+            "数据收集高度依赖人工 Excel。",
+            "难以溯源，审计风险高。",
+            "缺少高层可读的可视化看板。"
+          ],
+          "jobs": ["年度组织碳盘查", "生成合规报告", "发布 ESG 数据"]
+        },
+        {
+          "role": "供应链管理者",
+          "subtitle": "Execution · Supplier Engagement",
+          "responsibilities": [
+            "收集上游供应商碳排数据。",
+            "推动供应商开展减排行动。",
+            "支持绿色采购决策。"
+          ],
+          "pains": [
+            "供应商配合度低，催收困难。",
+            "数据口径不一，质量不稳定。",
+            "缺少辅助供应商的简易工具。"
+          ],
+          "jobs": ["供应商数据采集", "低碳供应商准入", "供应链协同"]
+        },
+        {
+          "role": "研究人员 / 顾问",
+          "subtitle": "Expert · Methodology & Modeling",
+          "responsibilities": [
+            "构建产品全生命周期模型。",
+            "维护排放因子数据库与标准。",
+            "保证计算方法科学一致。"
+          ],
+          "pains": [
+            "传统 LCA 软件昂贵且难用。",
+            "模型版本管理混乱，复用差。",
+            "本地化因子更新慢。"
+          ],
+          "jobs": ["产品碳足迹建模", "因子库维护", "方法学配置"]
+        }
+      ]
+    },
+    {
+      "kind": "problem-cards",
+      "title": "问题定义：数据、计算、协作的断裂点",
+      "subtitle": "PROBLEM DEFINITION: KEY CHALLENGES",
+      "columns": [
+        {
+          "title": "数据层面",
+          "subtitle": "Data Layer",
+          "priority": "P0",
+          "problem": "数据来源分散，缺乏统一主数据管理，且口径与标准不一致。",
+          "impacts": ["清洗耗时占比高", "结果可信度低，难通过审计"],
+          "example": "ERP 物料编码与因子库名称无法自动映射。"
+        },
+        {
+          "title": "计算层面",
+          "subtitle": "Calculation Layer",
+          "priority": "P0",
+          "problem": "LCA 逻辑固化在 Excel 中，缺乏版本管理，难复用与追溯。",
+          "impacts": ["单品计算成本高", "结果黑盒化，难解释偏差"],
+          "example": "分配规则变化时需要人工修改大量 Excel。"
+        },
+        {
+          "title": "协作层面",
+          "subtitle": "Collaboration Layer",
+          "priority": "P1",
+          "problem": "跨部门与跨企业通过邮件/文件传输数据，存在明显协作断点。",
+          "impacts": ["供应链收集周期长", "责任追溯机制薄弱"],
+          "example": "上游供应商填报进度只能靠人工逐一催收。"
+        }
+      ]
+    },
+    {
+      "kind": "architecture-stack",
+      "title": "产品方案设计：平台架构",
+      "subtitle": "PRODUCT SOLUTION: PLATFORM ARCHITECTURE DESIGN",
+      "layers": [
+        {
+          "title": "应用层 (Application Layer)",
+          "subtitle": "User Interaction & Output",
+          "modules": ["碳足迹计算任务", "报告生成", "供应链协同", "数据驾驶舱"]
+        },
+        {
+          "title": "模型层 (Model & Logic Layer)",
+          "subtitle": "Core Calculation Engine",
+          "modules": ["LCA 计算引擎", "排放因子库", "模型版本管理", "配置与规则引擎"]
+        },
+        {
+          "title": "数据层 (Data Infrastructure)",
+          "subtitle": "Ingestion & Storage",
+          "modules": ["多源数据采集", "ETL 清洗", "主数据管理", "数据存储/数据湖"]
+        }
+      ],
+      "services": [
+        "安全与权限 (IAM/RBAC)",
+        "Open API 网关",
+        "审计日志与追溯",
+        "任务调度中心",
+        "消息通知服务"
+      ],
+      "deployment": "SaaS / Private Cloud / Hybrid"
+    },
+    {
+      "kind": "feature-grid",
+      "title": "核心功能模块",
+      "subtitle": "CORE FUNCTIONAL MODULES & FEATURES",
+      "items": [
+        {
+          "title": "数据管理中心",
+          "subtitle": "Data Management",
+          "features": [
+            "预置多行业模板，支持 Excel/API 批量导入与校验。",
+            "统一管理物料、供应商、工厂等主数据。",
+            "记录来源、变更与血缘，确保可追溯。"
+          ],
+          "valueTag": "数据准确性"
+        },
+        {
+          "title": "LCA 模型计算引擎",
+          "subtitle": "Model Calculation",
+          "features": [
+            "支持多种系统边界与评价方法配置。",
+            "内置 ISO 14067、PEF、PAS 2050 等方法。",
+            "BOM 自动解析并关联排放因子。"
+          ],
+          "valueTag": "计算效率"
+        },
+        {
+          "title": "报告生成与合规",
+          "subtitle": "Reporting & Compliance",
+          "features": [
+            "一键生成 PCF / EPD 标准报告。",
+            "支持 CBAM 申报数据包整理。",
+            "提供热点与趋势可视化分析。"
+          ],
+          "valueTag": "合规性"
+        },
+        {
+          "title": "供应链协同网络",
+          "subtitle": "Supply Chain Collaboration",
+          "features": [
+            "供应商门户支持填报与审批流。",
+            "数据共享兼顾隐私与协同。",
+            "自动计算供应商碳绩效评分。"
+          ],
+          "valueTag": "网络效应"
+        }
+      ]
+    },
+    {
+      "kind": "swimlane",
+      "title": "产品原型/功能流程：一次碳足迹计算",
+      "subtitle": "PRODUCT PROTOTYPE & FUNCTIONAL FLOW",
+      "phases": [
+        { "step": "1", "title": "定义与入口" },
+        { "step": "2", "title": "数据准备" },
+        { "step": "3", "title": "建模与计算" },
+        { "step": "4", "title": "产出与协同" }
+      ],
+      "actors": [
+        { "name": "企业用户", "subtitle": "Sustainability Manager" },
+        { "name": "平台系统", "subtitle": "LCA Platform Core" },
+        { "name": "供应商", "subtitle": "Supply Chain Partner" }
+      ],
+      "nodes": [
+        {
+          "actorIndex": 0,
+          "phaseIndex": 0,
+          "type": "user",
+          "title": "新建计算任务",
+          "body": "设定产品、功能单位与系统边界。"
+        },
+        {
+          "actorIndex": 1,
+          "phaseIndex": 0,
+          "type": "system",
+          "title": "解析 BOM 结构",
+          "body": "自动生成初始计算模型树。"
+        },
+        {
+          "actorIndex": 0,
+          "phaseIndex": 1,
+          "type": "user",
+          "title": "导入活动数据",
+          "body": "上传能耗、物流等实景数据。",
+          "status": "校验"
+        },
+        {
+          "actorIndex": 1,
+          "phaseIndex": 1,
+          "type": "system",
+          "title": "因子匹配与请求",
+          "body": "自动匹配数据库并触发缺失数据请求。"
+        },
+        {
+          "actorIndex": 2,
+          "phaseIndex": 1,
+          "type": "external",
+          "title": "填报数据",
+          "body": "供应商返回上游排放数据。"
+        },
+        {
+          "actorIndex": 1,
+          "phaseIndex": 2,
+          "type": "system",
+          "title": "模型计算引擎",
+          "body": "执行 LCI/LCIA 运算与质量审核。"
+        },
+        {
+          "actorIndex": 0,
+          "phaseIndex": 2,
+          "type": "user",
+          "title": "结果分析",
+          "body": "查看热点、敏感性与对比结果。"
+        },
+        {
+          "actorIndex": 1,
+          "phaseIndex": 3,
+          "type": "system",
+          "title": "生成报告",
+          "body": "输出 PCF/ISO 14067 报告与证据包。"
+        },
+        {
+          "actorIndex": 0,
+          "phaseIndex": 3,
+          "type": "user",
+          "title": "发布与协同",
+          "body": "对外披露或发送下游客户。",
+          "status": "完成"
+        }
+      ],
+      "legend": "User Action · System Auto-Process · External Action · 关键质量控制点"
+    },
+    {
+      "kind": "metrics-dashboard",
+      "title": "数据与指标 (Success Metrics)",
+      "subtitle": "KEY PERFORMANCE INDICATORS & SUCCESS MEASUREMENT",
+      "metrics": [
+        {
+          "title": "采纳与使用",
+          "rows": [
+            { "label": "企业激活数", "value": "128", "note": "15% MoM" },
+            { "label": "DAU / WAU Ratio", "value": "42%", "note": "5% QoQ" },
+            { "label": "客户留存率", "value": "94.5%", "note": "6 months" }
+          ]
+        },
+        {
+          "title": "业务与交易",
+          "rows": [
+            { "label": "计算任务数", "value": "52,400", "note": "22% MoM" },
+            { "label": "报告产出数", "value": "8,300", "note": "Avg 65/Client" },
+            { "label": "企业版转化率", "value": "18.5%", "note": "+2.1 pts" }
+          ]
+        },
+        {
+          "title": "效率与满意度",
+          "rows": [
+            { "label": "平均计算耗时", "value": "2.5 Days", "note": "From 14 Days" },
+            { "label": "工单 SLA 达成率", "value": "99.2%", "note": "Target 99%" },
+            { "label": "净推荐值 NPS", "value": "54", "note": "High Category" }
+          ]
+        },
+        {
+          "title": "数据质量",
+          "rows": [
+            { "label": "实景数据覆盖率", "value": "68%", "note": "Target 80%" },
+            { "label": "自动校验通过率", "value": "92.4%", "note": "Quality Imprv" },
+            { "label": "第三方抽检准确性", "value": "99.8%", "note": "ISO Std" }
+          ]
+        }
+      ],
+      "chartTitle": "核心业务增长趋势",
+      "quarters": ["Q1", "Q2", "Q3", "Q4"],
+      "series": [
+        { "name": "Tasks", "values": [12000, 25000, 38000, 52400], "color": "00A3E0" },
+        { "name": "Reports", "values": [2000, 4500, 6200, 8300], "color": "002060" }
+      ],
+      "northStarLabel": "North Star Metric",
+      "northStarValue": "15,200+",
+      "northStarBody": "月度有效计算（Monthly Validated Calculations），衡量平台核心价值交付的最关键指标。"
+    },
+    {
+      "kind": "roadmap-phases",
+      "title": "产品迭代路线图：MVP → 增强版 → 生态平台",
+      "subtitle": "PRODUCT ROADMAP: MVP TO ECOSYSTEM EVOLUTION",
+      "items": [
+        {
+          "time": "0 - 3 Months",
+          "title": "MVP 基础验证期",
+          "subtitle": "Foundation & Validation",
+          "features": [
+            "支持单品碳足迹计算与基础报告导出。",
+            "建立 RBAC 权限与审计日志。",
+            "集成静态排放因子库完成首批验证。"
+          ],
+          "milestone": "首个种子客户上线运行"
+        },
+        {
+          "time": "3 - 9 Months",
+          "title": "增强版与自动化",
+          "subtitle": "Automation & Scale",
+          "features": [
+            "扩展多品类模型与多行业适配。",
+            "开放 API 对接 ERP/MES。",
+            "上线供应商门户与数据驾驶舱。"
+          ],
+          "milestone": "50+ 企业客户接入，自动化率 > 40%"
+        },
+        {
+          "time": "9 - 18 Months",
+          "title": "生态平台化",
+          "subtitle": "Ecosystem & Intelligence",
+          "features": [
+            "开放 API 赋能第三方开发者与机构。",
+            "AI 推荐减排路径与材料替代方案。",
+            "建立行业对标与开发者生态。"
+          ],
+          "milestone": "行业标准认证与开发者生态建立"
+        }
+      ],
+      "risksTitle": "Risks",
+      "risks": [
+        "欧盟 CBAM / ISO 标准变更可能导致模型重构",
+        "跨国供应链数据传输需满足 GDPR 等合规要求",
+        "LCA 专业门槛可能影响非专业用户采纳"
+      ],
+      "dependenciesTitle": "Dependencies",
+      "dependencies": [
+        "第三方数据库授权谈判",
+        "供应商配合度与采购推动",
+        "Phase 2 起需要数据与算法团队投入"
+      ]
+    },
+    {
+      "kind": "strengths-sidebar",
+      "title": "我的优势",
+      "subtitle": "CORE STRENGTHS & COMPETITIVE ADVANTAGES",
+      "items": [
+        {
+          "title": "行业知识深度",
+          "subtitle": "Domain Expertise",
+          "bullets": [
+            "精通 ISO 14040/44、ISO 14067、PAS 2050 与 GHG Protocol。",
+            "熟悉 Ecoinvent、GaBi、CLCD 等数据库结构与映射逻辑。",
+            "理解 CBAM、电池法案及双碳政策的合规要求。"
+          ],
+          "tags": ["LCA Methodology", "ESG Compliance", "Carbon Audit"]
+        },
+        {
+          "title": "复杂系统构建",
+          "subtitle": "System Architecture",
+          "bullets": [
+            "能将复杂业务解耦为数据层、模型层、应用层。",
+            "擅长设计因子匹配与规则引擎。",
+            "能把咨询流程抽象成 SaaS 功能模块。"
+          ],
+          "tags": ["SaaS Design", "Abstraction", "Modularization"]
+        },
+        {
+          "title": "数据建模能力",
+          "subtitle": "Data Science & Analysis",
+          "bullets": [
+            "熟练使用 SQL 与 Python/Pandas 做清洗与建模。",
+            "能从 0 到 1 建立北极星与健康度指标体系。",
+            "擅长 A/B 验证产品假设与迭代方向。"
+          ],
+          "tags": ["Python/SQL", "Data Modeling", "A/B Testing"]
+        },
+        {
+          "title": "跨学科沟通",
+          "subtitle": "Cross-functional Collaboration",
+          "bullets": [
+            "能把环境科学术语转译为研发可执行语言。",
+            "可协调专业性与易用性之间的需求冲突。",
+            "具备 Workshop 引导与多方共创能力。"
+          ],
+          "tags": ["Stakeholder Mgmt", "Requirement Translation"]
+        }
+      ],
+      "sidebarTitle": "Certifications & Tool Stack",
+      "certifications": [
+        "NPDP · 产品经理国际资格认证",
+        "ISO 14064 · 温室气体核查员认证",
+        "PMP · 项目管理专业人士"
+      ],
+      "tools": ["Python", "SQL", "Axure / Figma", "Jira / Confluence", "Tableau", "SimaPro / GaBi"],
+      "quote": "我致力于成为连接环境科学与数字技术的桥梁，通过产品化思维让可持续发展变得可度量、可管理。"
+    },
+    {
+      "kind": "value-closing",
+      "title": "我能为团队带来的价值",
+      "subtitle": "把行业专业性、产品化抽象与数据驱动执行合成一个可规模化的增长引擎。",
+      "valueLabel": "VALUE I BRING",
+      "statement": "不是单点补位，而是把复杂专业场景真正做成用户可用、团队可迭代、业务可放大的产品能力。",
+      "items": [
+        {
+          "title": "行业理解",
+          "body": "缩短从业务问题到产品抽象的路径，减少前期理解与试错成本。",
+          "tag": "Domain Fit"
+        },
+        {
+          "title": "产品化抽象",
+          "body": "把非标咨询、计算与协同流程沉淀为可复用的平台模块与方法。",
+          "tag": "Productization"
+        },
+        {
+          "title": "数据驱动执行",
+          "body": "通过指标、实验与反馈闭环推动持续迭代，而不是停留在静态方案。",
+          "tag": "Execution"
+        }
+      ],
+      "footerNote": "期待把环境科学、平台产品与增长执行真正连接起来，成为团队里稳定且高杠杆的产品力量。"
+    }
+  ]
+}

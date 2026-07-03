@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "updated_at": "2026-07-03T00:00:00Z",
+  "categories": [
+    {
+      "id": "lca",
+      "name": "LCA Expertise",
+      "name_en": "LCA Expertise",
+      "description": "Skills for LCA, product carbon footprint, EPD, CBAM, data quality, and modeling.",
+      "description_en": "Skills for LCA, product carbon footprint, EPD, CBAM, data quality, and modeling.",
+      "order": 1
+    },
+    {
+      "id": "data",
+      "name": "Data Processing",
+      "name_en": "Data Processing",
+      "description": "Skills for inventory data, BOM handling, background data matching, conversion, and validation.",
+      "description_en": "Skills for inventory data, BOM handling, background data matching, conversion, and validation.",
+      "order": 2
+    },
+    {
+      "id": "office",
+      "name": "Office Documents",
+      "name_en": "Office Documents",
+      "description": "Skills for Word, Excel, PowerPoint, and PDF document work.",
+      "description_en": "Skills for Word, Excel, PowerPoint, and PDF document work.",
+      "order": 3
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting",
+      "name_en": "Reporting",
+      "description": "Skills for reports, audit records, client deliverables, and visual outputs.",
+      "description_en": "Skills for reports, audit records, client deliverables, and visual outputs.",
+      "order": 4
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "name_en": "Meta",
+      "description": "Skills for creating, improving, and managing skills.",
+      "description_en": "Skills for creating, improving, and managing skills.",
+      "order": 5
+    },
+    {
+      "id": "utility",
+      "name": "Utility",
+      "name_en": "Utility",
+      "description": "Reusable utilities and workflow skills across projects.",
+      "description_en": "Reusable utilities and workflow skills across projects.",
+      "order": 6
+    }
+  ],
+  "skills": [
+    {
+      "id": "docx",
+      "name": "Word Document",
+      "description": "Create, read, edit, extract, convert, and polish Microsoft Word .docx documents.",
+      "version": "1.0",
+      "author": "Anthropic, PBC",
+      "category": "office",
+      "tags": [
+        "office",
+        "document",
+        "word",
+        "docx"
+      ],
+      "path": "skills/docx",
+      "auto_install": true
+    },
+    {
+      "id": "pdf",
+      "name": "PDF",
+      "description": "Read, extract, merge, split, rotate, watermark, OCR, create, fill, encrypt, and decrypt PDF files.",
+      "version": "1.0",
+      "author": "Anthropic, PBC",
+      "category": "office",
+      "tags": [
+        "office",
+        "document",
+        "pdf",
+        "ocr"
+      ],
+      "path": "skills/pdf",
+      "auto_install": true
+    },
+    {
+      "id": "power-grid-lca-decomposition",
+      "name": "Power Grid Asset LCA Material Decomposition",
+      "description": "Decompose power generation, transmission, and distribution equipment registers into LCA material flows and background dataset matches.",
+      "version": "1.0",
+      "author": "M-LCA",
+      "category": "lca",
+      "tags": [
+        "lca",
+        "power-grid",
+        "decomposition",
+        "upr",
+        "materials"
+      ],
+      "path": "skills/power-grid-lca-decomposition",
+      "auto_install": true
+    },
+    {
+      "id": "pptx",
+      "name": "PowerPoint",
+      "description": "Create, edit, audit, convert, and render PowerPoint decks and presentation deliverables.",
+      "version": "3.1",
+      "author": "Anthropic, PBC",
+      "category": "office",
+      "tags": [
+        "office",
+        "presentation",
+        "powerpoint",
+        "pptx",
+        "slides"
+      ],
+      "path": "skills/pptx",
+      "auto_install": true
+    },
+    {
+      "id": "skill-creator",
+      "name": "Skill Creator",
+      "description": "Create, modify, improve, evaluate, benchmark, and package skills.",
+      "version": "1.0",
+      "author": "Anthropic, PBC",
+      "category": "meta",
+      "tags": [
+        "meta",
+        "skill",
+        "creator",
+        "evaluation"
+      ],
+      "path": "skills/skill-creator",
+      "auto_install": true
+    },
+    {
+      "id": "xlsx",
+      "name": "Excel Spreadsheet",
+      "description": "Read, edit, clean, recalculate, format, chart, create, and convert spreadsheet files.",
+      "version": "1.0",
+      "author": "Anthropic, PBC",
+      "category": "office",
+      "tags": [
+        "office",
+        "spreadsheet",
+        "excel",
+        "xlsx",
+        "csv"
+      ],
+      "path": "skills/xlsx",
+      "auto_install": true
+    }
+  ]
+}

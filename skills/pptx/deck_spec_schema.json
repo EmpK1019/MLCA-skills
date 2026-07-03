@@ -1,0 +1,265 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MLCA PPTX Deck Spec",
+  "type": "object",
+  "required": ["outputFile", "title", "slides"],
+  "properties": {
+    "outputFile": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": "string" },
+    "author": { "type": "string" },
+    "layout": { "type": "string" },
+    "themePreset": {
+      "type": "string",
+      "enum": ["mckinsey", "dark-tech", "genspark"],
+      "description": "Theme preset name. When set, preset tokens fill first then theme overrides apply."
+    },
+    "deck": {
+      "type": "object",
+      "properties": {
+        "showPageNumbers": { "type": "boolean" },
+        "appendSourcesSlide": { "type": "boolean" },
+        "writeSpecCopy": { "type": "boolean" },
+        "specOutputFile": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "theme": {
+      "type": "object",
+      "properties": {
+        "dominant": { "type": "string" },
+        "support": { "type": "string" },
+        "accent": { "type": "string" },
+        "accentSecondary": { "type": "string" },
+        "success": { "type": "string" },
+        "warning": { "type": "string" },
+        "danger": { "type": "string" },
+        "background": { "type": "string" },
+        "surface": { "type": "string" },
+        "cardBackground": { "type": "string" },
+        "cardTransparency": { "type": "number" },
+        "text": { "type": "string" },
+        "muted": { "type": "string" },
+        "line": { "type": "string" },
+        "headerFont": { "type": "string" },
+        "bodyFont": { "type": "string" },
+        "accentColors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Category accent colors array (e.g. green, blue, amber, purple, red for dark-tech)"
+        },
+        "stepGradient": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Gradient colors for process step card top borders (e.g. McKinsey 5-step blue→green)"
+        },
+        "motif": { "type": "string", "description": "Repeated decorative motif name (e.g. left-accent-rail, header-bar, gradient-cover)" },
+        "borderAccent": { "type": "string", "description": "Card border accent color override" },
+        "borderAccentWidth": { "type": "number", "description": "Card border accent width in px or inches" }
+      },
+      "additionalProperties": true
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          {
+            "type": "object",
+            "required": ["id"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "path": { "type": "string" },
+              "url": { "type": "string" },
+              "filename": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "cover",
+              "agenda",
+              "section",
+              "bullets",
+              "two-column",
+              "stats",
+              "grid",
+              "feature-grid",
+              "comparison",
+              "timeline",
+              "career-journey",
+              "process-flow",
+              "capability-matrix",
+              "market-driver-stack",
+              "persona-cards",
+              "problem-cards",
+              "architecture-stack",
+              "swimlane",
+              "hub-spoke",
+              "metrics-dashboard",
+              "roadmap-phases",
+              "strengths-sidebar",
+              "kpi-dashboard",
+              "layered-architecture",
+              "timeline-dots",
+              "capability-radar",
+              "free-layout",
+              "quote",
+              "value-closing",
+              "closing",
+              "sources"
+            ]
+          },
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "eyebrow": { "type": "string" },
+          "message": { "type": "string" },
+          "backgroundColor": { "type": "string" },
+          "pageChrome": {
+            "oneOf": [
+              { "type": "boolean" },
+              {
+                "type": "object",
+                "properties": {
+                  "enabled": { "type": "boolean" },
+                  "dark": { "type": "boolean" }
+                },
+                "additionalProperties": true
+              }
+            ]
+          },
+          "items": { "type": "array" },
+          "bullets": { "type": "array", "items": { "type": "string" } },
+          "leftTitle": { "type": "string" },
+          "leftBody": { "type": "string" },
+          "leftBullets": { "type": "array", "items": { "type": "string" } },
+          "rightTitle": { "type": "string" },
+          "rightBody": { "type": "string" },
+          "rightBullets": { "type": "array", "items": { "type": "string" } },
+          "columns": { "type": "array" },
+          "quote": { "type": "string" },
+          "attribution": { "type": "string" },
+          "sources": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                { "type": "string" },
+                {
+                  "type": "object",
+                  "properties": {
+                    "label": { "type": "string" },
+                    "url": { "type": "string" }
+                  },
+                  "additionalProperties": true
+                }
+              ]
+            }
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetId": { "type": "string" },
+                "path": { "type": "string" },
+                "src": { "type": "string" },
+                "url": { "type": "string" },
+                "filename": { "type": "string" },
+                "fallback": {
+                  "oneOf": [
+                    { "type": "boolean" },
+                    { "type": "string", "enum": ["skip", "placeholder"] }
+                  ]
+                },
+                "onError": {
+                  "oneOf": [
+                    { "type": "boolean" },
+                    { "type": "string", "enum": ["skip", "placeholder"] }
+                  ]
+                },
+                "x": { "type": "number" },
+                "y": { "type": "number" },
+                "w": { "type": "number" },
+                "h": { "type": "number" },
+                "layer": {
+                  "type": "string",
+                  "enum": ["background", "foreground"]
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["text", "shape", "image", "line"]
+                },
+                "layer": {
+                  "type": "string",
+                  "enum": ["background", "foreground"]
+                },
+                "text": {
+                  "oneOf": [
+                    { "type": "string" },
+                    { "type": "array" }
+                  ]
+                },
+                "shape": { "type": "string" },
+                "assetId": { "type": "string" },
+                "path": { "type": "string" },
+                "src": { "type": "string" },
+                "url": { "type": "string" },
+                "filename": { "type": "string" },
+                "fallback": {
+                  "oneOf": [
+                    { "type": "boolean" },
+                    { "type": "string", "enum": ["skip", "placeholder"] }
+                  ]
+                },
+                "onError": {
+                  "oneOf": [
+                    { "type": "boolean" },
+                    { "type": "string", "enum": ["skip", "placeholder"] }
+                  ]
+                },
+                "x": { "type": "number" },
+                "y": { "type": "number" },
+                "w": { "type": "number" },
+                "h": { "type": "number" },
+                "x2": { "type": "number" },
+                "y2": { "type": "number" },
+                "fontSize": { "type": "number" },
+                "fontFace": { "type": "string" },
+                "color": { "type": "string" },
+                "bold": { "type": "boolean" },
+                "italic": { "type": "boolean" },
+                "align": { "type": "string" },
+                "valign": { "type": "string" },
+                "fill": { "type": "object" },
+                "line": { "type": "object" }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
